@@ -1,0 +1,118 @@
+
+ /*Match login icon button to search button style */
+/* #top_menu .top_icon_btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc; */    /* adjust to match search border */
+   /* background: transparent;    /* match search background */
+
+  
+  /*#top_menu .top_icon_btn i {
+    font-size: 18px;            /* adjust to match size */
+   /* color: #333;                /* match search color */
+   /* vertical-align: middle;
+  }
+  
+  /* Match login icon button to search button style */
+/*#top_menu .top_icon_btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;     /* adjust to match search border */
+   /* background: transparent;    /* match search background */
+  
+  
+ /* #top_menu .top_icon_btn i {
+    font-size: 18px;            /* adjust to match size */
+   /*  color: #333;    */        /* match search color */
+  /*  vertical-align: middle;
+  }
+  
+/* Base look for login button */
+#top_menu .top_icon_btn {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+  }
+  
+  /* DEFAULT: header over hero (transparent / dark background) */
+  .header_in #top_menu .top_icon_btn {
+    border: 1px solid rgba(255,255,255,0.9);
+    background: transparent;
+  }
+ /* .header_in #top_menu .top_icon_btn i {
+    color: #ffffff;                  /* white person icon */
+  
+  
+  /* STICKY: header on white background after scroll */
+  .header_in.sticky #top_menu .top_icon_btn {
+    border: 1px solid #333333;       /* darker ring so it shows on white */
+    background: #ffffff;
+  }
+  .header_in.sticky #top_menu .top_icon_btn i {
+    color: #333333;                  /* dark person icon */
+  }
+  
+
+  /* Default: at top of page (over hero) */
+#top_menu .top_icon_btn {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid rgba(255,255,255,0.9);
+    background: transparent;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+  }
+  
+  #top_menu .top_icon_btn i {
+    color: #ffffff;   /* white person icon at the top */
+    font-size: 16px;
+  }
+  
+  /* After scroll: body gets .ten31-scrolled */
+  body.ten31-scrolled #top_menu .top_icon_btn {
+    border-color: #333333;
+    background: #ffffff;
+  }
+  
+  body.ten31-scrolled #top_menu .top_icon_btn i {
+    color: #333333;   /* dark person icon on white header */
+  }
+  
+
+  /* Base logo styling */
+#logo img {
+    display: block;
+    height: auto;
+    max-width: 140px;
+    transition: background 0.2s ease, box-shadow 0.2s ease, padding 0.2s ease;
+  }
+  
+  /* At the TOP of the page (over the patterned hero) */
+  body:not(.ten31-scrolled) #logo img {
+    background: rgba(255, 255, 255, 0.7);   /* soft cream/white badge behind logo */
+    padding: 2px 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);  /* gentle shadow so it lifts off the pattern */
+  }
+  
+  /* AFTER SCROLL (white header) – go back to a clean logo */
+  body.ten31-scrolled #logo img {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+  
